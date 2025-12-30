@@ -853,5 +853,48 @@ h2 {
     color:   var(--main-color);
 }
 
-
+.page-title {
+    padding: 120px 0px 120px;
+}
+.story-three_inner {
+    padding: 10px 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 26px;
+}
+.story-three_inner i {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 42px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: var(--color-two);
+    background-color: var(--white-color);
+    font-family: "flaticon_palace-icons";
+}
+.story-three_checklist li {
+    position: relative;
+    padding-left: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: rgba(var(--color-two-rgb), 0.80);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.06);
+}
+@media only screen and (max-width: 767px) {
+    .story-three_inner{
+       display: none;
+    }
+}
 
