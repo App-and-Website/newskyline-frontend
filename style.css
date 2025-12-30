@@ -1056,3 +1056,212 @@ h2 {
 }
 
 
+/* =====================================
+   GLOBAL RESET & TYPOGRAPHY
+===================================== */
+
+.nsg-project-page {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1f2937;
+  line-height: 1.75;
+  background: #ffffff;
+}
+
+.nsg-project-page p {
+  margin: 0 0 14px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.nsg-project-page strong {
+  font-weight: 600;
+}
+
+/* =====================================
+   HERO / OVERVIEW SECTION
+===================================== */
+
+.nsg-project-hero {
+  background: #f8fafc;
+  padding: 70px 0px;
+}
+
+.nsg-project-hero-inner {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+/* IMAGE */
+.nsg-project-image img {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+/* TEXT CONTENT */
+.nsg-project-summary h1 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 28px;
+  color: #0f172a;
+}
+
+.nsg-project-summary h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #e63946;
+  margin: 32px 0 12px;
+  line-height: 1.4;
+}
+
+.nsg-project-summary p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  color: #334155;
+}
+
+/* =====================================
+   CONTENT SECTIONS
+===================================== */
+
+.nsg-project-section {
+  margin: 70px auto;
+  padding: 0 0px;
+}
+
+.nsg-project-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  line-height: 1.35;
+  color: #0f172a;
+}
+
+.nsg-project-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  color: #334155;
+}
+
+/* =====================================
+   FEASIBILITY TABLE
+===================================== */
+
+.nsg-feasibility-table {
+  overflow-x: auto;
+}
+
+.nsg-feasibility-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nsg-feasibility-table th,
+.nsg-feasibility-table td {
+  padding: 14px 16px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 15px;
+}
+
+.nsg-feasibility-table thead th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.nsg-total-row td {
+  font-weight: 700;
+  background: #f8fafc;
+}
+
+.nsg-profit-row td {
+  font-weight: 700;
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+/* =====================================
+   LIST FIXES (IMPORTANT)
+===================================== */
+
+/* BULLET LIST */
+.nsg-bullet-list {
+  list-style: disc;
+  padding-left: 22px;
+  margin: 16px 0;
+}
+
+.nsg-bullet-list li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+/* NUMBER LIST */
+.nsg-number-list {
+  list-style: decimal;
+  padding-left: 22px;
+  margin: 16px 0;
+}
+
+.nsg-number-list li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+/* PROCESS SUB LISTS */
+.nsg-process-block ul {
+  list-style: disc;
+  padding-left: 22px;
+  margin-top: 12px;
+}
+
+.nsg-process-block li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* =====================================
+   PROCESS BLOCKS
+===================================== */
+
+.nsg-process-block {
+  background: #f9fafb;
+  padding: 28px 30px;
+  border-radius: 12px;
+  margin-top: 36px;
+}
+
+.nsg-process-block h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+.nsg-bullet-list li{
+  list-style: disc!important;
+}
+.nsg-number-list li{
+   list-style-type: decimal !important;
+}
+.nsg-process-block ul li {
+    list-style: disc;
+}
+.nsg-project-section {
+    max-width: 100%;
+    margin: 70px auto;
+    padding: 0 0px;
+}
+@media screen and (max-width: 992px) {
+  .nsg-project-hero-inner {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+}
+/* ==========================*
